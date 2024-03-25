@@ -31,7 +31,11 @@ a:active {
 }
 
 .search {
+  border: none;
+  outline: none;
+  fill: none;
   display: flex;
+  padding-left: 45px;
   z-index: 3;
   height: 44px;
   background: #ffff;
@@ -43,6 +47,18 @@ a:active {
   width: 584px;
   max-width: 584px;
   margin-top: 30px;
+  background-color: white;
+  background-image: url("search-icon.png");
+  background-position: 15px;
+  background-repeat: no-repeat;
+  background-size: 16px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 
 .google-button {
