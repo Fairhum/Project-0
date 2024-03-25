@@ -100,15 +100,16 @@ a:active {
   font-size: 13px;
 }
 
-.btn-advanced {
-  box-shadow: none;
-  background-color: #4d90fe;
-  border: 1px solid #3079ed;
-  color: #fff;
-}
-
 .btn-div {
   display: flex;
   justify-content: flex-end;
-  width: 20px;
+  width: 585px;
+  margin-top: 30px;
+}
+
+.btn-advanced {
+  box-shadow: none !important;
+  background-color: #4d90fe !important;
+  border: 1px solid #3079ed !important;
+  color: #fff !important;
 }
