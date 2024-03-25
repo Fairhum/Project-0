@@ -1,6 +1,14 @@
 .upper {
   list-style-type: none;
   margin: 0;
+  padding-bottom: 85px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.upperAdvanced {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: flex-end;
